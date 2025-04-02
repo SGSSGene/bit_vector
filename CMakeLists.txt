@@ -77,8 +77,8 @@ target_link_libraries(
 # Use FetchContent to load dependencies
 FetchContent_Declare(
   pasta_utils
-  GIT_REPOSITORY https://github.com/pasta-toolbox/utils.git
-  GIT_TAG origin/main
+  GIT_REPOSITORY https://github.com/SGSSGene/utils.git
+  GIT_TAG origin/fix/multi_definition
 )
 FetchContent_MakeAvailable(pasta_utils)
 
